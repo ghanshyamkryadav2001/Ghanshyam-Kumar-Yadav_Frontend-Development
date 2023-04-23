@@ -8,7 +8,7 @@ Ans-
 2. What problems / warnings are there with code ?
 
 Ans- 
-     (1) items prop default value: The items prop in the WrappedListComponent has a default value of null, which is not valid for an array. 
+      (1) items prop default value: The items prop in the WrappedListComponent has a default value of null, which is not valid for an array. 
           A better default value would be an empty array []
 
      (2) isSelected prop in SingleListItem: The isSelected prop in the SingleListItem component is supposed to be a boolean value, but it's currently 
