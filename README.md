@@ -1,12 +1,15 @@
 # Ghanshyam-Kumar-Yadav_Frontend-Development
 
 1. Explain what the simple List component does.
-Ans- The List component in this code is a React component that renders a list of items with the ability to select an item by clicking on it.
+
+Ans- 
+    The List component in this code is a React component that renders a list of items with the ability to select an item by clicking on it.
 
 2. What problems / warnings are there with code ?
 
-Ans- (1) items prop default value: The items prop in the WrappedListComponent has a default value of null, which is not valid for an array. A better 
-        default value would be an empty array []
+Ans- 
+     (1) items prop default value: The items prop in the WrappedListComponent has a default value of null, which is not valid for an array. A better 
+         default value would be an empty array []
 
      (2) isSelected prop in SingleListItem: The isSelected prop in the SingleListItem component is supposed to be a boolean value, but it's currently 
          being passed the selectedIndex state variable, which is a number. This may cause unexpected behavior when the component is rendered.
